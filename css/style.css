@@ -12,18 +12,21 @@
 /* 共通 */
 body {
     margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 img {
     width: 100%;
 }
+
 button {
     padding: 12px 24px;
     border-radius: 4px;
     font-weight: bolder;
 }
 .txt-small-catch {
-    color: white;
+    color: var(--tertiary-color);
     margin-bottom: 24px;
+    font-size: 25px;
 }
 .txt-title {
     font-size: 40px;
@@ -365,4 +368,11 @@ header{
         color: var(--primary-bg);
         border: 1px solid white;
     }
+}
+
+#header-catch-text a,
+#header-catch-text a:hover,
+#header-catch-text a:visited{
+    text-decoration: none;
+    color: pink;
 }
