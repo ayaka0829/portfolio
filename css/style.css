@@ -1,12 +1,12 @@
 /*CSS 変数定義 */
 :root {
-    --primary-bg: #28293E;
+    --primary-bg: hsl(0, 0%, 16%);
     --secondary-bg: #FDF0E9;
     --primary-color: white;
     --secondary-color: #391400;
     --padding-default: 24px;
     --padding-narrow: 12px;
-    --tertiary-color: #EF6D58;
+    --tertiary-color: rgb(55, 109, 207);
     --padding-footer: 24px;
 }
 /* 共通 */
@@ -22,7 +22,7 @@ button {
     font-weight: bolder;
 }
 .txt-small-catch {
-    color: var( --tertiary-color);
+    color: white;
     margin-bottom: 24px;
 }
 .txt-title {
@@ -63,7 +63,7 @@ main #main-about {
     padding: var(--padding-default);
 }
 main #main-about button {
-    color: var(--secondary-color);
+    color: rgb(55, 109, 207);
 }
 
 
@@ -95,7 +95,7 @@ footer {
     padding-top: 40px;
     color: var(--primary-color);
     background-color: var(--primary-bg);
-    font-size: 12px;
+    font-size: 16px;
     padding-left: var(--padding-footer);
     padding-right: var(--padding-footer);
 }
@@ -139,11 +139,11 @@ footer hr {
 #footer-sns i {
     font-size: 150%;
     background-color: var(--tertiary-color);
-    padding: 12px;
+    padding: 16px;
     padding-top: 16px;
     width: 24px;
     height: 24px;
-    border-radius: 24px;
+    border-radius: 30px;
     margin: 4px;
 }
 .sns-icon {
@@ -169,7 +169,7 @@ footer hr {
 .work-genre {
     bottom: 90px;
     left: 12px;
-    background-color: rgb(155, 107, 199);
+    background-color: var(--tertiary-color);
     color: white;
     font-size: 16px;
     padding: 4px 24px;
